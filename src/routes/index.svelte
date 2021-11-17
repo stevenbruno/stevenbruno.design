@@ -2,25 +2,24 @@
 	<title>Steven Bruno</title>
 </svelte:head>
 
-<div class="px-4 mb-20">
-	<p class="text-2xl font-semibold font-serif text-gray-800 my-4 dark:text-gray-300">
-		Steven Bruno
-	</p>
+<div class="px-4 mb-12">
+	<p class="font-medium text-gray-800 my-4 dark:text-gray-300">Steven Bruno</p>
 	<div class="flex flex-col ">
 		<p class="mb-2 text-gray-500 leading-7 dark:text-gray-400">
-			Hi, I'm Steven. I'm a product designer based in NYC. Currently, I'm building web and mobile
-			applications at Toast.
+			I'm a product designer based in NYC. Currently, I'm building restaurant technology at Toast.
 		</p>
 		<p class="mb-2 text-gray-500 leading-7 dark:text-gray-400">
-			I'm a UX generalist with diverse experience across the design ecosystem. To learn more about
-			my background, check out my <a
-				class="text-blue-500 dark:text-blue-400 hover:text-blue-600 font-medium"
-				href="/">resume</a
-			>.
+			Previously, I studed Civil Engineering at Northwestern University. I planned on becoming an
+			architect, but those plans changed once I took some computer science classes and learned how
+			much I enjoyed designing software.
 		</p>
 		<p class="mb-2 text-gray-500 leading-7 dark:text-gray-400">
-			Send me an email if you'd like to say hello. <a
-				class="text-blue-500 dark:text-blue-400 hover:text-blue-600 font-medium"
+			These days, I’m thinking and reading about climate solutions, blockchain possibilities, and
+			other design media (e.g. graphic, interior).
+		</p>
+		<p class="mb-2 text-gray-500 leading-7 dark:text-gray-400">
+			To get in touch, reach me at <a
+				class="text-blue-600 dark:text-blue-400 hover:text-blue-600 font-medium"
 				href="/">sbruno636@gmail.com</a
 			>
 		</p>
