@@ -2,29 +2,31 @@
 	<title>Steven Bruno</title>
 </svelte:head>
 
-<div class="px-4 mb-12">
-	<p class="font-medium text-gray-800 my-4">Hi, I'm Steven.</p>
-	<div class="flex flex-col ">
-		<p class="mb-2 text-gray-500 leading-7">
-			I'm a product designer based in NYC. Currently, I'm building restaurant technology at Toast.
+<div class="max-w-screen-lg mx-auto mt-24 text-gray-500">
+	<div class="mb-24">
+		<h1 class="text-xl font-medium text-salmon mb-1">Steven Bruno</h1>
+		<p class="max-w-2xl mb-1">
+			I'm a product designer based in New York City. Currently, I'm designing software for
+			restaurants at Toast. To get in touch, reach me at
+			<span class="underline"><a href="mailto:sbruno636@gmail.com">sbruno636@gmail.com</a></span>.
 		</p>
-		<p class="mb-2 text-gray-500 leading-7">
-			Previously, I studed Civil Engineering at Northwestern University, where I planned on becoming
-			an architect. Those plans changed once I took computer science classes and learned how much I
-			enjoy designing software.
-		</p>
-		<p class="mb-2 text-gray-500 leading-7">
-			These days, I’m thinking and reading about climate solutions, blockchain possibilities, and
-			other design media (e.g. graphic, interior).
-		</p>
-		<p class="mb-2 text-gray-500 leading-7">
-			To get in touch, reach me at <a class="text-blue-600 underline hover:text-blue-600" href="/"
-				>sbruno636@gmail.com</a
-			>.
-		</p>
+		<div class="flex">Social links</div>
 	</div>
-</div>
-<div class="flex flex-col px-4 gap-5 pb-8">
-	<a href="projects" class="text-blue-600 underline hover:text-blue-600">View projects</a>
-	<a href="writing" class="text-blue-600 underline hover:text-blue-600">View blog posts</a>
+	<div class="lg:flex justify-between">
+		<div class="w-80">
+			<h2 class="text-lg font-medium text-gray-800 mb-4">Projects</h2>
+			<p>Hello</p>
+		</div>
+		<div class="w-80">
+			<h2 class="text-lg font-medium text-gray-800 mb-4">Personal Projects</h2>
+			<div>
+				<p class="font-medium underline mb-1">stevenbruno.design</p>
+				<p>My reponsive personal website built with Svelte and TailwindCSS.</p>
+			</div>
+		</div>
+		<div class="w-80">
+			<h2 class="text-lg font-medium text-gray-800 mb-4">Writing</h2>
+			<p class="italic text-gray-400">There's nothing here at the moment.</p>
+		</div>
+	</div>
 </div>
