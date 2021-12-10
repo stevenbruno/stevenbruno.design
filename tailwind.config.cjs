@@ -2,7 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
 	mode: 'jit',
-	purge: ['./src/**/*.svelte'],
+	content: ['./src/**/*.svelte'],
 	theme: {
 		fontFamily: {
 			sans: ['Inter', ...defaultTheme.fontFamily.sans],
@@ -11,7 +11,9 @@ module.exports = {
 		},
 		extend: {
 			colors: {
-				salmon: '#FF5757'
+				salmon: '#FF5757',
+				grue: '#647790',
+				'slate-650': '#3c4a5d'
 			}
 		}
 	}

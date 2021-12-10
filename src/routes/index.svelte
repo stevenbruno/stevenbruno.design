@@ -2,7 +2,7 @@
 	<title>Steven Bruno</title>
 </svelte:head>
 
-<div class="max-w-screen-lg mx-auto mt-24 text-gray-500">
+<div class="max-w-screen-lg mx-auto mt-24 text-grue">
 	<div class="mb-24">
 		<h1 class="text-xl font-medium text-salmon mb-1">Steven Bruno</h1>
 		<p class="max-w-2xl mb-1">
@@ -12,21 +12,50 @@
 		</p>
 		<div class="flex">Social links</div>
 	</div>
-	<div class="lg:flex justify-between">
-		<div class="w-80">
-			<h2 class="text-lg font-medium text-gray-800 mb-4">Projects</h2>
-			<p>Hello</p>
-		</div>
-		<div class="w-80">
-			<h2 class="text-lg font-medium text-gray-800 mb-4">Personal Projects</h2>
-			<div>
-				<p class="font-medium underline mb-1">stevenbruno.design</p>
-				<p>My reponsive personal website built with Svelte and TailwindCSS.</p>
+	<div class="flex flex-col gap-16 lg:flex-row lg:gap-0 justify-between mb-8">
+		<div class="w-72 md:w-80">
+			<h2 class="text-lg font-medium text-slate-800 mb-4">Work</h2>
+			<div class="flex flex-col gap-5">
+				<div>
+					<p class="text-slate-650 mb-2">
+						<a href="/#" class="border-b-2 border-slate-600 hover:border-salmon hover:text-salmon"
+							>MyToast</a
+						>
+					</p>
+					<p>Toast's first mobile app for restaurant employees</p>
+				</div>
+				<div>
+					<p class="text-slate-650 mb-2">
+						<a href="/#" class="border-b-2 border-slate-600 hover:border-salmon hover:text-salmon"
+							>Payroll Redesign</a
+						>
+					</p>
+					<p>A redesign of Toast Payroll's flagship feature</p>
+				</div>
+				<div>
+					<p class="text-slate-650 mb-2">
+						<a href="/#" class="border-b-2 border-slate-600 hover:border-salmon hover:text-salmon"
+							>Tip Pooling</a
+						>
+					</p>
+					<p>A configuration tool for Toast restaurant tip pools</p>
+				</div>
 			</div>
 		</div>
-		<div class="w-80">
-			<h2 class="text-lg font-medium text-gray-800 mb-4">Writing</h2>
-			<p class="italic text-gray-400">There's nothing here at the moment.</p>
+		<div class="w-72 md:w-80">
+			<h2 class="text-lg font-medium text-slate-800 mb-4">Personal Projects</h2>
+			<div>
+				<p class="text-slate-650 mb-2">
+					<a href="/#" class="border-b-2 border-slate-600 hover:border-salmon hover:text-salmon"
+						>stevenbruno.design</a
+					>
+				</p>
+				<p>My personal website built with Svelte and TailwindCSS</p>
+			</div>
+		</div>
+		<div class="w-72 md:w-80">
+			<h2 class="text-lg font-medium text-slate-800 mb-4">Writing</h2>
+			<p class="italic font-light">There's nothing here at the moment.</p>
 		</div>
 	</div>
 </div>
