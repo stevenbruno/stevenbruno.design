@@ -5,17 +5,16 @@ module.exports = {
 	content: ['./src/**/*.svelte'],
 	theme: {
 		fontFamily: {
-			sans: ['Inter', ...defaultTheme.fontFamily.sans],
+			sans: [...defaultTheme.fontFamily.sans],
 			serif: [...defaultTheme.fontFamily.serif],
 			mono: [...defaultTheme.fontFamily.mono]
 		},
 		extend: {
 			colors: {
-				salmon: '#FF5757',
 				grue: '#647790',
 				'slate-650': '#3c4a5d',
-				darkbg: '#0a0a0a',
-				blurple: '#8D8AFF'
+				blurple: '#7D7AFF',
+				darkbg: '#0a0a0a'
 			}
 		}
 	}
