@@ -13,7 +13,9 @@ module.exports = {
 			colors: {
 				salmon: '#FF5757',
 				grue: '#647790',
-				'slate-650': '#3c4a5d'
+				'slate-650': '#3c4a5d',
+				darkbg: '#0a0a0a',
+				blurple: '#8D8AFF'
 			}
 		}
 	}
