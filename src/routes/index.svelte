@@ -1,3 +1,9 @@
+<script>
+	import work from '../data/work';
+	import projects from '../data/projects';
+	import writing from '../data/writing';
+</script>
+
 <svelte:head>
 	<title>Steven Bruno</title>
 </svelte:head>
@@ -16,41 +22,35 @@
 		<div class="w-72 md:w-80">
 			<h2 class="text-lg font-medium text-slate-800 mb-4">Work</h2>
 			<div class="flex flex-col gap-5">
-				<div>
-					<p class="text-slate-650 mb-2">
-						<a href="/#" class="border-b-2 border-slate-600 hover:border-salmon hover:text-salmon"
-							>MyToast</a
-						>
-					</p>
-					<p>Toast's first mobile app for restaurant employees</p>
-				</div>
-				<div>
-					<p class="text-slate-650 mb-2">
-						<a href="/#" class="border-b-2 border-slate-600 hover:border-salmon hover:text-salmon"
-							>Payroll Redesign</a
-						>
-					</p>
-					<p>A redesign of Toast Payroll's flagship feature</p>
-				</div>
-				<div>
-					<p class="text-slate-650 mb-2">
-						<a href="/#" class="border-b-2 border-slate-600 hover:border-salmon hover:text-salmon"
-							>Tip Pooling</a
-						>
-					</p>
-					<p>A configuration tool for Toast restaurant tip pools</p>
-				</div>
+				{#each work as work}
+					<div>
+						<p class="text-slate-650 mb-2">
+							<a
+								href={work.url}
+								class="border-b-2 border-slate-600 hover:border-salmon hover:text-salmon"
+								>{work.name}</a
+							>
+						</p>
+						<p>{work.description}</p>
+					</div>
+				{/each}
 			</div>
 		</div>
 		<div class="w-72 md:w-80">
-			<h2 class="text-lg font-medium text-slate-800 mb-4">Personal Projects</h2>
-			<div>
-				<p class="text-slate-650 mb-2">
-					<a href="/#" class="border-b-2 border-slate-600 hover:border-salmon hover:text-salmon"
-						>stevenbruno.design</a
-					>
-				</p>
-				<p>My personal website built with Svelte and TailwindCSS</p>
+			<h2 class="text-lg font-medium text-slate-800 mb-4">Personal works</h2>
+			<div class="flex flex-col gap-5">
+				{#each projects as project}
+					<div>
+						<p class="text-slate-650 mb-2">
+							<a
+								href={project.url}
+								class="border-b-2 border-slate-600 hover:border-salmon hover:text-salmon"
+								>{project.name}</a
+							>
+						</p>
+						<p>{project.description}</p>
+					</div>
+				{/each}
 			</div>
 		</div>
 		<div class="w-72 md:w-80">
