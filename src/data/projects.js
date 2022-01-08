@@ -6,13 +6,13 @@ const projects = [
 	},
 	{
 		name: 'Grid Sketch',
-		description: 'A vanilla Javascript desktop drawing game that utilizes CSS Grid',
-		url: '/#'
+		description:
+			'A little desktop drawing game I made with vanilla JavaScript in order to learn CSS grid',
+		url: 'https://stevenbruno.github.io/GridSketch/'
 	},
 	{
 		name: 'Exoplanet Detection with One-Class Classification',
-		description:
-			'Exploring machine learning techniques for detecting habitable exoplanets. Part of Chicago Python User Group mentorship program.',
+		description: 'Exploring machine learning techniques for detecting habitable exoplanets',
 		url: 'https://dev.to/stevenbruno/an-introduction-to-one-class-classification-2m5c'
 	}
 ];
