@@ -30,14 +30,14 @@
 	</div>
 	<div class="flex flex-col gap-16 lg:flex-row lg:gap-0 justify-between mb-8">
 		<div class="w-72 md:w-80">
-			<h2 class="text-lg font-medium text-slate-600 dark:text-slate-200 mb-6">Work</h2>
+			<h2 class="text-lg font-medium text-blurple mb-6">Work</h2>
 			<div class="flex flex-col gap-5">
 				{#each work as work}
 					<div>
 						<p class="text-slate-650 dark:text-slate-300 mb-2">
 							<a
 								href={work.url}
-								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple"
+								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-violet-900 active:border-violet-900 dark:active:text-violet-500 dark:active:border-violet-500"
 								>{work.name}</a
 							>
 						</p>
@@ -47,14 +47,14 @@
 			</div>
 		</div>
 		<div class="w-72 md:w-80">
-			<h2 class="text-lg font-medium text-slate-600 dark:text-slate-200 mb-6">Personal Projects</h2>
+			<h2 class="text-lg font-medium text-blurple mb-6">Personal Projects</h2>
 			<div class="flex flex-col gap-5">
 				{#each projects as project}
 					<div>
 						<p class="text-slate-650 dark:text-slate-300 mb-2">
 							<a
 								href={project.url}
-								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple"
+								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-violet-900 active:border-violet-900 dark:active:text-violet-500 dark:active:border-violet-500"
 								>{project.name}</a
 							>
 						</p>
@@ -64,7 +64,7 @@
 			</div>
 		</div>
 		<div class="w-72 md:w-80">
-			<h2 class="text-lg font-medium text-slate-600 dark:text-slate-200 mb-6">Writing</h2>
+			<h2 class="text-lg font-medium text-blurple mb-6">Writing</h2>
 			<p class="italic font-light">There's nothing here at the moment.</p>
 		</div>
 	</div>
