@@ -29,7 +29,7 @@
 		</div>
 	</div>
 	<div class="flex flex-col gap-16 lg:flex-row lg:gap-0 justify-between mb-8">
-		<div class="w-72 md:w-80">
+		<div class="w-72">
 			<h2 class="text-lg font-medium text-blurple mb-6">Work</h2>
 			<div class="flex flex-col gap-5">
 				{#each work as work}
@@ -46,7 +46,7 @@
 				{/each}
 			</div>
 		</div>
-		<div class="w-72 md:w-80">
+		<div class="w-72">
 			<h2 class="text-lg font-medium text-blurple mb-6">Personal Projects</h2>
 			<div class="flex flex-col gap-5">
 				{#each projects as project}
@@ -63,9 +63,21 @@
 				{/each}
 			</div>
 		</div>
-		<div class="w-72 md:w-80">
+		<div class="w-72">
 			<h2 class="text-lg font-medium text-blurple mb-6">Writing</h2>
-			<p class="italic font-light">There's nothing here at the moment.</p>
+			<div class="flex flex-col gap-5">
+				{#each writing as article}
+					<div>
+						<p class="text-slate-650 dark:text-slate-300 mb-2">
+							<a
+								href={article.url}
+								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-indigo-900 active:border-indigo-900 dark:active:text-indigo-500 dark:active:border-indigo-500"
+								>{article.name}</a
+							>
+						</p>
+					</div>
+				{/each}
+			</div>
 		</div>
 	</div>
 </div>
