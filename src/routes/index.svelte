@@ -16,7 +16,7 @@
 		<p class="max-w-2xl mb-2 leading-relaxed">
 			I'm a product designer based in New York City. Currently, I'm designing software for
 			restaurants at Toast. To get in touch, reach me at
-			<span class="underline hover:text-blurple"
+			<span class="underline hover:text-blurple active:text-indigo-900 dark:active:text-indigo-500"
 				><a href="mailto:sbruno636@gmail.com">sbruno636@gmail.com</a></span
 			>.
 		</p>
@@ -37,7 +37,7 @@
 						<p class="text-slate-650 dark:text-slate-300 mb-2">
 							<a
 								href={work.url}
-								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-violet-900 active:border-violet-900 dark:active:text-violet-500 dark:active:border-violet-500"
+								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-indigo-900 active:border-indigo-900 dark:active:text-indigo-500 dark:active:border-indigo-500"
 								>{work.name}</a
 							>
 						</p>
@@ -54,7 +54,7 @@
 						<p class="text-slate-650 dark:text-slate-300 mb-2">
 							<a
 								href={project.url}
-								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-violet-900 active:border-violet-900 dark:active:text-violet-500 dark:active:border-violet-500"
+								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-indigo-900 active:border-indigo-900 dark:active:text-indigo-500 dark:active:border-indigo-500"
 								>{project.name}</a
 							>
 						</p>
