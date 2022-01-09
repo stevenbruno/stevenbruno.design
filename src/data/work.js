@@ -10,7 +10,7 @@ const work = [
 		url: '/#'
 	},
 	{
-		name: 'Tip Pooling',
+		name: 'Toast Tips Manager',
 		description: 'A configuration tool for Toast restaurant tip pools',
 		url: '/#'
 	}
