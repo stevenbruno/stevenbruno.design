@@ -2,7 +2,7 @@ const projects = [
 	{
 		name: 'stevenbruno.design',
 		description: 'My personal website built with Svelte and Tailwind CSS',
-		url: 'https://stevenbruno.design/'
+		url: 'https://github.com/stevenbruno/stevenbruno.design'
 	},
 	{
 		name: 'Grid Sketch',
