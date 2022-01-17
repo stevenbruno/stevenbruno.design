@@ -14,6 +14,7 @@ module.exports = {
 				grue: '#647790',
 				'slate-650': '#3c4a5d',
 				blurple: '#5C5FFF',
+				blurple2: '#7c7aff',
 				darkbg: '#0a0a0a'
 			}
 		}

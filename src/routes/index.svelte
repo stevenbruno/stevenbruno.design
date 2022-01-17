@@ -12,7 +12,9 @@
 <!-- For some reason I need to reference a dark mode class here in order for the dark mode on the html to work -->
 <div class="max-w-screen-lg mx-auto pt-24 text-gray-500 dark:text-slate-400 dark:bg-darkbg">
 	<div class="mb-24">
-		<h1 class="text-xl font-medium tracking-wide text-blurple mb-1">Hi, I'm Steven</h1>
+		<h1 class="text-xl font-medium tracking-wide text-blurple dark:text-blurple2 mb-1">
+			Hi, I'm Steven
+		</h1>
 		<p class="max-w-2xl mb-2 leading-relaxed">
 			I'm a product designer based in New York City. Currently, I'm designing software for
 			restaurants at Toast. To get in touch, reach me at
@@ -30,7 +32,7 @@
 	</div>
 	<div class="flex flex-col gap-16 lg:flex-row lg:gap-0 justify-between mb-8">
 		<div class="w-72">
-			<h2 class="text-lg font-medium text-blurple mb-6">Work</h2>
+			<h2 class="text-lg font-medium text-blurple dark:text-blurple2 mb-6">Work</h2>
 			<div class="flex flex-col gap-5">
 				{#each work as work}
 					<div>
@@ -47,7 +49,7 @@
 			</div>
 		</div>
 		<div class="w-72">
-			<h2 class="text-lg font-medium text-blurple mb-6">Personal Projects</h2>
+			<h2 class="text-lg font-medium text-blurple dark:text-blurple2 mb-6">Personal Projects</h2>
 			<div class="flex flex-col gap-5">
 				{#each projects as project}
 					<div>
@@ -64,7 +66,7 @@
 			</div>
 		</div>
 		<div class="w-72">
-			<h2 class="text-lg font-medium text-blurple mb-6">Writing</h2>
+			<h2 class="text-lg font-medium text-blurple dark:text-blurple2 mb-6">Writing</h2>
 			<div class="flex flex-col gap-5">
 				{#each writing as article}
 					<div>
