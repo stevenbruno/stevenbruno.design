@@ -13,7 +13,7 @@ module.exports = {
 			colors: {
 				grue: '#647790',
 				'slate-650': '#3c4a5d',
-				blurple: '#7D7AFF',
+				blurple: '#5C5FFF',
 				darkbg: '#0a0a0a'
 			}
 		}
