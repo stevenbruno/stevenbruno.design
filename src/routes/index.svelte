@@ -39,7 +39,7 @@
 						<p class="text-slate-800 dark:text-slate-300 mb-2">
 							<a
 								href={work.url}
-								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-indigo-900 active:border-indigo-900 dark:active:text-indigo-500 dark:active:border-indigo-500"
+								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-indigo-900 active:border-indigo-900 dark:active:text-indigo-500 dark:active:border-indigo-500 dark:hover:border-blurple2 dark:hover:text-blurple2"
 								>{work.name}</a
 							>
 						</p>
@@ -56,7 +56,7 @@
 						<p class="text-slate-800 dark:text-slate-300 mb-2">
 							<a
 								href={project.url}
-								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-indigo-900 active:border-indigo-900 dark:active:text-indigo-500 dark:active:border-indigo-500"
+								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-indigo-900 active:border-indigo-900 dark:active:text-indigo-500 dark:active:border-indigo-500 dark:hover:border-blurple2 dark:hover:text-blurple2"
 								>{project.name}</a
 							>
 						</p>
@@ -73,7 +73,7 @@
 						<p class="text-slate-800 dark:text-slate-300 mb-2">
 							<a
 								href={article.url}
-								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-indigo-900 active:border-indigo-900 dark:active:text-indigo-500 dark:active:border-indigo-500"
+								class="border-b-2 border-slate-600 dark:border-slate-400 hover:border-blurple hover:text-blurple active:text-indigo-900 active:border-indigo-900 dark:active:text-indigo-500 dark:active:border-indigo-500 dark:hover:border-blurple2 dark:hover:text-blurple2"
 								>{article.name}</a
 							>
 						</p>
