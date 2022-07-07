@@ -16,8 +16,8 @@
 			Hi, I'm Steven
 		</h1>
 		<p class="max-w-2xl mb-2 leading-relaxed">
-			I'm a product designer based in New York City. Currently, I'm designing software for
-			restaurants at Toast. To get in touch, reach me at
+			I'm a product designer based in New York City. Currently, I'm working at Spotify. To get in
+			touch, reach me at
 			<span class="underline hover:text-blurple active:text-indigo-900 dark:active:text-indigo-500"
 				><a href="mailto:sbruno636@gmail.com">sbruno636@gmail.com</a></span
 			>.
